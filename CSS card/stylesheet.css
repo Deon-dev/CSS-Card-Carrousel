@@ -81,7 +81,7 @@ h1 {
 }
 
 @media screen and (max-width:800px){
-    .card {
+    .card .mode {
         width: 100%;
     }
 }
@@ -90,4 +90,23 @@ h1 {
     .box {
         gap: 30px;
     }
+}
+
+/* @media screen and (max-width:800px) {
+    .mode {
+        justify-content: center;
+    }
+} */
+
+.color {
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+
+.change {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+
 }
